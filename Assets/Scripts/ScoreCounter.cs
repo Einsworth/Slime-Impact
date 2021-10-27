@@ -1,0 +1,35 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ScoreCounter : MonoBehaviour
+{
+    public static int scoreValue = 0;
+    public int scoreToBoss;
+    Text score;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        score = GetComponent<Text>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        score.text = scoreValue + "/" + scoreToBoss;
+        if(scoreValue >= scoreToBoss)
+        {
+            SummonBoss();
+        }
+    }
+
+    //Late Game Baby
+    void SummonBoss()
+    {
+        SpawnControl.spawnAllowed = false;
+        Destroy(GameObject.FindWithTag("Slime"));
+        SpawnControl.spawnBoss = true;
+    }
+}
