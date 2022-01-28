@@ -9,12 +9,11 @@ This is unrefined version which code is not commented and the build didn't use s
 
 # Game preview
 
-Menu screen
-
+Menu Screen
 ![Screenshot_20220128-154442](https://user-images.githubusercontent.com/90752003/151523470-81e844ae-7dc2-449c-8709-b02f41c159f9.png)
 ![Screenshot_20220128-154448](https://user-images.githubusercontent.com/90752003/151523527-bdd6fcd9-1e87-4f7e-933b-4d19c44cc8a8.png)
 
-Gameplay screen
+Gameplay Screen
 
 Stage 1
 
@@ -31,7 +30,6 @@ Stage 3
 ![Screenshot_20220128-155316](https://user-images.githubusercontent.com/90752003/151523739-cccd1608-d42b-4228-befb-93bb4087fc5a.png)
 ![Screenshot_20220128-155924](https://user-images.githubusercontent.com/90752003/151523769-f4375db0-1d21-4f47-bc88-15456e9555aa.png)
 
-Result screen
-
+Result Screen
 ![Screenshot_20220128-160129](https://user-images.githubusercontent.com/90752003/151523809-6d47a718-e533-4e7f-94c4-0d1b9f80ca39.png)
 ![Screenshot_20220128-160421](https://user-images.githubusercontent.com/90752003/151523820-215181c1-ff57-4b5a-a8bd-a7a4f7d2cdc4.png)
